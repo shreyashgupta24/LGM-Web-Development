@@ -1,0 +1,63 @@
+.login {
+  min-height: 100vh;
+}
+.sign-up{
+  font-family: "Montserrat";
+
+  background-image: url('https://images.unsplash.com/photo-1542838132-92c53300491e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JvY2VyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+  background-size: cover;
+}
+/* #sign{
+
+    background-image: url('https://images.unsplash.com/photo-1542838132-92c53300491e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JvY2VyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+
+    background-position: center;
+
+} */
+.overall{
+  margin:100;
+}
+#blur {
+ background-color: rgba(255, 255, 255, .15);
+ backdrop-filter: blur(5px);
+ margin: auto;
+ width: 35%;
+margin-top: 8rem;
+ padding: 1rem;
+
+}
+
+.login-heading {
+text-align: center;
+  font-weight: 300;
+  font-family: "Montserrat";
+  color: #81B214;
+
+}
+.login-heading:hover{
+  color: white;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+  background-color: #81B214;
+  text-align: center;
+
+}
+.d-grid{
+  text-align: center;
+
+}
+@media (max-width:1000px){
+
+  #blur{
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    margin: auto;
+    width: 50%;
+   margin-top: 8rem;
+    padding: 1rem;
+  }
+}
